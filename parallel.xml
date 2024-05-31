@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.crm.listenercode.ListenerClass"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNgFashion.Ajio"/>
+      <class name="TestNgFashion.Kalki"/>
+      <class name="TestNgFashion.DemoWebSHop"/>
+      <class name="TestNgTravel.AbhiBus"/>
+      <class name="TestNgTravel.RedBus"/>
+      <class name="TestNgTravel.MakeMyTrip"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

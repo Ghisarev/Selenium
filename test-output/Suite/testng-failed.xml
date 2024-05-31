@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="admin01"/>
+    <parameter name="url" value="https://demowebshop.tricentis.com/"/>
+    <parameter name="username" value="admin01@gmail.com"/>
+    <classes>
+      <class name="Assignment.dwslogin">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuit"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="main"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Assignment.dwslogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
